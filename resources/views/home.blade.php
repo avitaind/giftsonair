@@ -17,7 +17,7 @@
 
                 </tr>
                       <td>
-                          <h4 class="steps-heading">2.  Get ready to be blown away by the online vouchers that you will receive against your purchase of an AVITA laptop! </h4>
+                          <h4 class="steps-heading">2.  Get ready to be blown away by the online shopping vouchers that you will receive against your purchase of an AVITA laptop! </h4>
 
                       </td>
                   </tr>
