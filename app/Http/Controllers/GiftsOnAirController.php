@@ -47,7 +47,7 @@ class GiftsOnAirController extends Controller
             'serial_no'=>'required',
             'model_no'=>'required',
             'invoice_no'=>'required',
-            'invoice_image'=>'required|mimes:doc,docx,jpg,jpeg,png,pdf,zip|max:5000'
+            'invoice_image'=>'required|mimes:doc,docx,jpg,jpeg,png,pdf,zip|size:5000'
         ]);
         
         $filePath = $this->upload($request->file('invoice_image'));
