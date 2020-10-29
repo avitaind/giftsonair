@@ -1,4 +1,7 @@
 @media only screen and (max-width: 600px) {
+    .py-4 {
+        background-image: url('/images/background.jpg')!important;
+      }
 
     .main-div{
         padding: 0px 0px !important;
@@ -124,3 +127,6 @@ margin: 5%;
     color: white;
 }
 
+.py-4 {
+    background-image: url('/images/background.jpg')!important;
+  }

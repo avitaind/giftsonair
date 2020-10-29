@@ -2,8 +2,6 @@
 
 @section('content')
 
-
-
  <div class="main-div" style="background-image: url('/images/background.jpg');">
     <div class="container-fluid" >
         <div class="row justify-content-center">
