@@ -19,7 +19,7 @@
 
                 </tr>
                       <td>
-                          <h4 class="steps-heading">2.  Get ready to be blown away by the confirmation email of the prize you have won! </h4>
+                          <h4 class="steps-heading">2.  Get ready to be blown away by the confirmation email of the online vouchers you have won! </h4>
 
                       </td>
                   </tr>
