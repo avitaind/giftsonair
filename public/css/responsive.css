@@ -1,10 +1,9 @@
 @media only screen and (max-width: 600px) {
-    .py-4 {
-        background-image: url('/images/background.jpg')!important;
-      }
+  
 
     .main-div{
         padding: 0px 0px !important;
+        background-image: url('/images/background-11.jpg')!important;
     }
 
     .social-icons{
@@ -13,30 +12,30 @@
     }
     
   .text-md-right {
-    color:#fff!important;   
+    color:#000!important;   
   }
 
     .alert-heading{
         margin-top: 75px;
         font-size: 18px;
-        color:#fff;
+        color:#000;
     }
     
     .steps-heading{
         text-align: center;
         font-weight: 300;
-        color:#fff;
+        color:#000;
     }
     .bold-heading{
      text-align: center;
     margin: 20px 0px;
     font-weight: 300;
-    color:#fff;
+    color:#000;
     }
 
     img.logo{
         width:350px!important; 
-        margin-top: 5%;
+        margin-top: 10%!important;
     }
     h4{
         font-size: 14px;
@@ -58,6 +57,10 @@
 }
 
 
+/**
+
+Desktop View
+*/
 
 .main-div{
     padding:10px 50px;
@@ -65,23 +68,23 @@
 
 img.logo{
     width: 1080px;
-    margin: 10% 5% 0% ;
+    margin: 5% 0% ;
 }
 
     .alert-heading{
-        margin-top: 25%!important;
+        margin-top: 40%!important;
         text-align: center;
-        color:#fff;
+        color:#000;
     }
 
 .steps-heading{
     text-align: center;
     font-weight: 500;
-    color:#fff;
+    color:#000;
 }
 .bold-heading{
  margin: 20px 0px;
- color:#fff;
+ color:#000;
 }
 .main-logo{
 margin: 5%;
@@ -110,7 +113,7 @@ margin: 5%;
 .fa:hover {
     opacity: 0.7;
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .fa-facebook {
@@ -126,7 +129,3 @@ margin: 5%;
     background: #55ACEE;
     color: white;
 }
-
-.py-4 {
-    background-image: url('/images/background.jpg')!important;
-  }

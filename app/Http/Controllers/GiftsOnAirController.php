@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Mail;
 use Faker\Provider\Image;
-
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Models\GiftsOnAir;
-
+use Session;
 
 class GiftsOnAirController extends Controller
 {
@@ -48,8 +47,9 @@ class GiftsOnAirController extends Controller
             'serial_no'=>'required',
             'model_no'=>'required',
             'invoice_no'=>'required',
-            'invoice_image'=>'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+            'invoice_image'=>'required|mimes:doc,docx,jpg,jpeg,png,pdf,zip'
         ]);
+        
         $filePath = $this->upload($request->file('invoice_image'));
 
         GiftsOnAir::create($request->all());
@@ -72,8 +72,11 @@ class GiftsOnAirController extends Controller
                 $message->to('avitaind@gmail.com', 'Admin')->subject('Gifts On Air');
     });
 
-	    return redirect()->back()->with('message', 'Thank you for your submission . You shall receive a confirmation mail shortly');
-        //return redirect('/')->back()->with('message', 'Thank you for your submission . You shall receive a confirmation mail shortly');
+            Session::flash('message');
+            return redirect()->back();
+
+	 ///   return redirect()->back()->with('message', 'Thank you for your submission . You shall receive a confirmation mail shortly');
+        
 
 }
 }
