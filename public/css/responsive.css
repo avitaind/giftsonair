@@ -1,13 +1,39 @@
 @media only screen and (max-width: 600px) {
 
+    .main-div{
+        padding: 0px 0px !important;
+    }
+
+    .social-icons{
+
+        padding: 0px 20%!important;
+    }
+    
+  .text-md-right {
+    color:#fff!important;   
+  }
+
     .alert-heading{
         margin-top: 75px;
         font-size: 18px;
+        color:#fff;
     }
+    
+    .steps-heading{
+        text-align: center;
+        font-weight: 300;
+        color:#fff;
+    }
+    .bold-heading{
+     text-align: center;
+    margin: 20px 0px;
+    font-weight: 300;
+    color:#fff;
+    }
+
     img.logo{
-        width: 200px!important;
-        height: 200px!important;
-        margin: 150px auto 25px !important;
+        width:350px!important; 
+        margin-top: 5%;
     }
     h4{
         font-size: 14px;
@@ -29,16 +55,30 @@
 }
 
 
+
+.main-div{
+    padding:10px 50px;
+}
+
+img.logo{
+    width: 1080px;
+    margin: 10% 5% 0% ;
+}
+
     .alert-heading{
-        margin-top: 25px!important;
+        margin-top: 25%!important;
+        text-align: center;
+        color:#fff;
     }
 
 .steps-heading{
-    text-align: left;
-    font-weight: 600;
+    text-align: center;
+    font-weight: 500;
+    color:#fff;
 }
 .bold-heading{
  margin: 20px 0px;
+ color:#fff;
 }
 .main-logo{
 margin: 5%;
@@ -49,12 +89,18 @@ margin: 5%;
     margin-top: 5%;
 }
 /*Social Media*/
+
+.social-icons{
+
+    padding: 0 35%;
+}
 .fa {
     font-size: 23px !important;
     padding: 8px 14px 10px 15px;
     border-radius: 50%;
     text-decoration: none;
     margin: 0 5px;
+
 }
 
 
@@ -77,3 +123,4 @@ margin: 5%;
     background: #55ACEE;
     color: white;
 }
+

@@ -10613,6 +10613,7 @@ button.bg-dark:focus {
 
   .text-md-right {
     text-align: right !important;
+    color:#fff;   
   }
 
   .text-md-center {

@@ -4,39 +4,40 @@
 
 
 
- <div class="main-div" style="background-image: url('/images/background.jpg'); padding:10px 50px;">
+ <div class="main-div" style="background-image: url('/images/background.jpg');">
     <div class="container-fluid" >
         <div class="row justify-content-center">
-            <div class="col-md-6" style="margin-top: 10%; text-align: center">
+            <div class="col-md-6">
 
-                <h3 class="alert-heading" style="font-weight:600; color:#fff;">Follow these 2 simple steps to redeem: </h3>
+                <h3 class="alert-heading" >Follow these 2 simple steps to redeem: </h3>
                 <hr>
                 <table>
                 <tr>
                   <td>
-                      <h4 class="steps-heading"  style="color:#fff;">1.  Fill up your purchase details along with a copy of the invoice and contact information.</h4>
+                      <h4 class="steps-heading" >1.  Fill up your purchase details along with a copy of the invoice and contact information.</h4>
                   </td>
 
                 </tr>
                       <td>
-                          <h4 class="steps-heading"  style="color:#fff;">2.  Get ready to be blown away by the confirmation email of the prize you have won! </h4>
+                          <h4 class="steps-heading">2.  Get ready to be blown away by the confirmation email of the prize you have won! </h4>
 
                       </td>
                   </tr>
             <tr>
             <td>
-                <h4 class="bold-heading"  style="color:#fff;"><strong> Don't forget to follow and subscribe us on our social  media handles listed below.</strong></h4>
+                <h4 class="bold-heading" ><strong> Don't forget to follow and subscribe us on our social  media handles listed below.</strong></h4>
              </td>
         </tr>
        
 
                 </table>
-
+        <div class="social-icons">
                 <a href="https://www.facebook.com/AvitaIndia/" class="fa fa-facebook" aria-hidden="true"></a>
                 <a href="https://twitter.com/AvitaIndia" class="fa fa-twitter" aria-hidden="true"></a>
                 <a href="https://www.instagram.com/avitaind/" class="fa fa-instagram" aria-hidden="true"></a>
                 <br/>
-                <img src="/images/laptops.png" style="width:1000px; margin-top:10%;" class="logo"> 
+        </div>
+                <img src="/images/laptops.png" class="logo"> 
 
             </div>
 
@@ -100,7 +101,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="purchased_from" class="col-md-4 col-form-label text-md-right">Purchased From</label>
+                                            <label for="purchased_from" class="col-md-4 col-form-label text-md-right">City </label>
                                             <div class="col-md-6">
                                                 <input id="purchased_from" type="text" class="form-control" name="purchased_from" required>
                                             </div>
