@@ -75,8 +75,8 @@ class GiftsOnAirController extends Controller
             Session::flash('message');
             return redirect()->back();
 
-	 ///   return redirect()->back()->with('message', 'Thank you for your submission . You shall receive a confirmation mail shortly');
+	 //   return redirect()->back()->with('message', 'Thank you for your submission . You shall receive a confirmation mail shortly');
         
 
-}
+    }
 }
