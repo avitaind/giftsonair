@@ -35,7 +35,7 @@ class Handler extends ExceptionHandler
         //
     }
 
-    public function render($request, Exception $exception)
+/*    public function render($request, Exception $exception)
     {
    
         if($exception instanceof PostTooLargeException){
@@ -43,5 +43,5 @@ class Handler extends ExceptionHandler
             }
     
     }
-  
+  */
 }
