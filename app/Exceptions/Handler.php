@@ -35,13 +35,8 @@ class Handler extends ExceptionHandler
         //
     }
 
-/*    public function render($request, Exception $exception)
+    public function render($request, Exception $exception)
     {
-   
-        if($exception instanceof PostTooLargeException){
-                    return redirect()->back()->withErrors("Size of attached file should be less ".ini_get("upload_max_filesize")."B", 'addNote');
-            }
-    
+        return parent::render($request, $exception);
     }
-  */
 }
