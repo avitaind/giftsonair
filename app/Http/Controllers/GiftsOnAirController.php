@@ -20,14 +20,14 @@ class GiftsOnAirController extends Controller
     {
         if (is_null($file)) {
 
-            return public_path() . '/uploads/' . '1.png';
+            return storage_path() . '/uploads/' . '1.png';
 
         }
         else {
             if ($file->isValid()) {
                 $fileName = (new \DateTime())->format('d.m.Y-hsi').'.'.$file->guessExtension();
-                $file->move(public_path() . '/uploads', $fileName);
-                return public_path() . '/uploads/' . $fileName;
+                $file->move(storage_path() . '/uploads', $fileName);
+                return storage_path() . '/uploads/' . $fileName;
             } else {
                 return \Redirect::route('contact_show')
                     ->with('message', 'The File is not valid!');
@@ -51,7 +51,7 @@ class GiftsOnAirController extends Controller
         ]);
         
         $filePath = $this->upload($request->file('invoice_image'));
-     
+
         GiftsOnAir::create($request->all());
 
         \Mail::send('emails.giftsonair',
