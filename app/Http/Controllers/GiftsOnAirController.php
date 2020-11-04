@@ -25,7 +25,7 @@ class GiftsOnAirController extends Controller
         }
         else {
             if ($file->isValid()) {
-                $fileName = (new \DateTime())->format('d.m.Y-hsi').'.'.$file->getClientOriginalName();
+                $fileName = (new \DateTime())->format('d.m.Y-hsi').'.'.$file->guessExtension();
                 $file->move(public_path() . '/uploads', $fileName);
                 return public_path() . '/uploads/' . $fileName;
             } else {
